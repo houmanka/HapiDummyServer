@@ -1,0 +1,2 @@
+// Run the server with
+npm install supervisor -g

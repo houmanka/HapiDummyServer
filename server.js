@@ -4,6 +4,7 @@ const Hapi = require('hapi');
 const Good = require('good');
 const AutoRoute = require('hapi-auto-route');
 
+
 const server = new Hapi.Server();
 
 server.connection(
