@@ -1,2 +1,8 @@
 // Run the server with
-npm install supervisor -g
+supervisor -e js,html node server.js
+
+// Find what is running on port 3000
+lsof -i tcp:3000
+
+// Kiil it
+kill -9 88709 [ENTER THE PID HERE]

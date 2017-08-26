@@ -9,7 +9,12 @@ const server = new Hapi.Server();
 
 server.connection(
     {   
-        routes: { cors: true }, 
+        routes: {
+            cors: {
+                origin: ['*'],
+                additionalHeaders: ['token']
+            }
+        }, 
         port: 3000, 
         host: 'localhost',
         labels: ['web']
