@@ -42,5 +42,17 @@ module.exports = {
             }],
             message: 'record is saved'
         }
+    },
+    todoList: (objects) => {
+        return {
+            statusCode: 200,
+            error: null,
+            data: [{
+                tasks: objects
+            }],
+            message: 'record is saved'
+        }
     }
+
+
 }
