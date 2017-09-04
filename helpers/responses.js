@@ -33,7 +33,7 @@ module.exports = {
             message: 'password is reset'
         }
     },
-    recordSaved: () => {
+    recordSaved: (assets) => {
         return {
             statusCode: 200,
             error: null,
@@ -41,6 +41,14 @@ module.exports = {
                 saved: true
             }],
             message: 'record is saved'
+        }
+    },
+    fetch: (obj) => {
+        return {
+            statusCode: 200,
+            error: null,
+            data: obj,
+            message: ''
         }
     },
     todoList: (objects) => {

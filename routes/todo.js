@@ -9,23 +9,27 @@ const objects = [
     {
         task: 'Create your first Client', 
         completed: true, 
-        category: 'client'
+        category: 'clientCreation'
     }, {
         task: 'Create your first Asset', 
         completed: true, 
-        category: 'asset'
+        category: 'assetCreation'
     }, {
         task: 'Invite some members', 
         completed: false, 
-        category: 'asset'
+        category: 'assetMember'
     },{
         task: 'Assign Roles and Permissions to each member', 
         completed: false, 
-        category: 'role'
+        category: 'roleAssignment'
     },{
         task: 'Create your first project', 
         completed: false, 
-        category: 'project'
+        category: 'projectCreation'
+    },{
+        task: 'Assign some taks to your project', 
+        completed: false, 
+        category: 'projectTasks'
     },
 ]     
 
