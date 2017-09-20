@@ -3,6 +3,7 @@
 const Hapi = require('hapi');
 const Good = require('good');
 const AutoRoute = require('hapi-auto-route');
+var _ = require('underscore');
 
 
 const server = new Hapi.Server();
@@ -13,11 +14,13 @@ server.connection(
             cors: {
                 origin: ['*'],
                 additionalHeaders: ['token']
-            }
+            },
+            payload: { maxBytes: 1048576000 }
         }, 
         port: 3000, 
-        host: 'localhost',
-        labels: ['web']
+        host: 'localhost',  // Without localhost address will be http://34.207.147.221:3000/
+        labels: ['web'],
+        
     }
 );
 

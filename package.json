@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular4-files-upload": "^1.0.1",
     "bcrypt": "^1.0.2",
     "boom": "^5.2.0",
     "good": "^7.2.0",
@@ -17,6 +18,8 @@
     "hapi": "^16.5.2",
     "hapi-auth-basic": "^4.2.0",
     "hapi-auto-route": "^1.1.0",
-    "inert": "^4.2.1"
+    "inert": "^4.2.1",
+    "lodash": "^4.17.4",
+    "underscore": "^1.8.3"
   }
 }

@@ -60,6 +60,14 @@ module.exports = {
             }],
             message: 'record is saved'
         }
+    },
+    fileList: (objects) => {
+        return {
+            statusCode: 200,
+            error: null,
+            data: objects,
+            message: ''
+        }
     }
 
 

@@ -44,7 +44,7 @@ const asset = [
       "description": "Some description"
     },
     {
-      "assetName": "Nephroma helveticum Ach. ssp. sipeanum (Gyel.) Goward & Ahti",
+      "assetName": "Nephroma helveticum Ach. ssp. ",
       "companyName": "Romaguera, Ankunding and Grady",
       "clientName": "nephroma-helveticum-ach.-ssp.-sipeanum-(gyel.)-goward-&-ahti",
       "description": "Some description"
@@ -116,7 +116,7 @@ const asset = [
       "description": "Some description"
     },
     {
-      "assetName": "Rinodina luridata (KÃ¶rb.) H. Mayrh., Scheid. & Sheard",
+      "assetName": "Rinodina luridata (KÃ¶rb.) H. Ma",
       "companyName": "Cassin Inc",
       "clientName": "rinodina-luridata-(kã¶rb.)-h.-mayrh.,-scheid.-&-sheard",
       "description": "Some description"
@@ -206,7 +206,7 @@ const asset = [
       "description": "Some description"
     },
     {
-      "assetName": "Ribes oxyacanthoides L. ssp. irriguum (Douglas) Sinnott",
+      "assetName": "Ribes oxyacanthoides L. ",
       "companyName": "Harvey LLC",
       "clientName": "ribes-oxyacanthoides-l.-ssp.-irriguum-(douglas)-sinnott",
       "description": "Some description"
@@ -224,7 +224,7 @@ const asset = [
       "description": "Some description"
     },
     {
-      "assetName": "Eriogonum lonchophyllum Torr. & A. Gray var. lonchophyllum",
+      "assetName": "Eriogonum lonchophyllum To",
       "companyName": "Spinka, Herman and Corkery",
       "clientName": "eriogonum-lonchophyllum-torr.-&-a.-gray-var.-lonchophyllum",
       "description": "Some description"
@@ -248,7 +248,7 @@ const asset = [
       "description": "Some description"
     },
     {
-      "assetName": "Dendropanax arboreus (L.) Decne. & Planch. ex Britton",
+      "assetName": "Dendropanax arboreus (L.)",
       "companyName": "Jerde LLC",
       "clientName": "dendropanax-arboreus-(l.)-decne.-&-planch.-ex-britton",
       "description": "Some description"
@@ -398,7 +398,7 @@ const asset = [
       "description": "Some description"
     },
     {
-      "assetName": "Anagallis arvensis L. ssp. foemina (Mill.) Schinz & Thell.",
+      "assetName": "Anagallis arvensis L. ssp. f.",
       "companyName": "Rosenbaum, Wyman and Smitham",
       "clientName": "anagallis-arvensis-l.-ssp.-foemina-(mill.)-schinz-&-thell.",
       "description": "Some description"
@@ -410,7 +410,7 @@ const asset = [
       "description": "Some description"
     },
     {
-      "assetName": "Vulpia microstachys (Nutt.) Munro var. microstachys",
+      "assetName": "Vulpia microstachys (Nutt.) ",
       "companyName": "Goyette LLC",
       "clientName": "vulpia-microstachys-(nutt.)-munro-var.-microstachys",
       "description": "Some description"
@@ -494,7 +494,7 @@ const asset = [
       "description": "Some description"
     },
     {
-      "assetName": "Grindelia camporum Greene var. bracteosa (J.T. Howell) M.A. Lane",
+      "assetName": "Grindelia camporum Greene ",
       "companyName": "Beier Inc",
       "clientName": "grindelia-camporum-greene-var.-bracteosa-(j.t.-howell)-m.a.-lane",
       "description": "Some description"
@@ -524,19 +524,19 @@ const asset = [
       "description": "Some description"
     },
     {
-      "assetName": "Gilia tenuiflora Benth. ssp. arenaria (Benth.) A.D. Grant & V.E. Grant",
+      "assetName": "Gilia tenuiflora Benth.",
       "companyName": "Kulas-Dach",
       "clientName": "gilia-tenuiflora-benth.-ssp.-arenaria-(benth.)-a.d.-grant-&-v.e.-grant",
       "description": "Some description"
     },
     {
-      "assetName": "Prosthechea cochleata (L.) W.E. Higgins var. triandra (Ames) W.E. Higgins",
+      "assetName": "Prosthechea cochleata s",
       "companyName": "Larson-Stoltenberg",
       "clientName": "prosthechea-cochleata-(l.)-w.e.-higgins-var.-triandra-(ames)-w.e.-higgins",
       "description": "Some description"
     },
     {
-      "assetName": "Plectritis congesta (Lindl.) DC. ssp. nitida (A. Heller) Morey",
+      "assetName": "Plectritis congesta ",
       "companyName": "Flatley-Bernhard",
       "clientName": "plectritis-congesta-(lindl.)-dc.-ssp.-nitida-(a.-heller)-morey",
       "description": "Some description"
