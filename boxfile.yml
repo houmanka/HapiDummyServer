@@ -1,0 +1,4 @@
+run.config:
+  engine: nodejs
+
+  fs_watch: true

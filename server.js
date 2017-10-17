@@ -18,7 +18,7 @@ server.connection(
             payload: { maxBytes: 1048576000 }
         }, 
         port: 3000, 
-        host: 'localhost',  // Without localhost address will be http://34.207.147.221:3000/
+        host: '172.21.0.6',  // Without localhost address will be http://34.207.147.221:3000/
         labels: ['web'],
         
     }

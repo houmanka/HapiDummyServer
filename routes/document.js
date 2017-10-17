@@ -55,7 +55,44 @@ module.exports =
                   reply(res);
               }, 3000);
             }  
-       }
+       },
+       {   
+             method: "GET",
+             path: "/doc_list_search",
+             handler: (request, reply) => {   
+               setTimeout(function() {
+                   console.log(request.payload);                   
+                   var params = request.query
+                   let result = [];
+                   console.log(params);
+                   if (params.search == "" || params.reset === "true") {
+                     result = docList;
+                   } else {
+                     result = docList.slice(5, _.random(5, 25) );
+                   }
+                   res = Responses.fetch(result);
+                   reply(res);
+               }, 1000);
+             }  
+        },
+        {   
+              method: "POST",
+              path: "/document-manager/metadata",
+              handler: (request, reply) => {   
+                setTimeout(function() {
+                    console.log(request.payload);                   
+                    const { recordName, recordDetails } = request.payload;
+                    var res;
+                    if (recordName == 'error') {
+                      res = Responses.resultNotFound(request.payload);
+                    } else {
+                      res = Responses.fetch(request.payload);
+                    }
+                    console.log(JSON.stringify(recordName));
+                    reply(res);
+                }, 1000);
+              }  
+         }
 
 ];
 

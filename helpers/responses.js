@@ -33,6 +33,14 @@ module.exports = {
             message: 'password is reset'
         }
     },
+    resultNotFound: (obj) => {
+        return {
+            statusCode: 404,
+            error: Boom.notAcceptable('Record Not found'),
+            data: obj,
+            message: 'Record Not found'
+        }
+    },
     recordSaved: (assets) => {
         return {
             statusCode: 200,
