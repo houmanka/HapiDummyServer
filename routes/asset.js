@@ -1,6 +1,254 @@
 const Responses = require("../helpers/responses");
+var _ = require('underscore');
 
 let asset =[];
+
+allOfAssets = [{
+  "assetName":"Poeltinula cerebrina (DC.) Hafellner",
+  "reference":"1",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"2"
+   }
+},
+{
+  "assetName":"Leptochloa scabra Nees",
+  "reference":"2",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"1"
+   }
+},
+{
+  "assetName":"Fuirena coerulescens Steud.",
+  "reference":"3",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"2"
+   }
+},
+{
+  "assetName":"Helenium brevifolium (Nutt.) Alph. Wood",
+  "reference":"4",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"0"
+   }
+},
+{
+  "assetName":"Poa compressa L.",
+  "reference":"5",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"6"
+   }
+},
+{
+  "assetName":"Nephroma helveticum Ach. ssp. ",
+  "reference":"6",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"1"
+   }
+},
+{
+  "assetName":"Quercus havardii Rydb. var. tuckeri S.L. Welsh",
+  "reference":"7",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"1"
+   }
+},
+{
+  "assetName":"Astragalus micromerius Barneby",
+  "reference":"8",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"1"
+   }
+},
+{
+  "assetName":"Acacia constricta Benth.",
+  "reference":"9",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"1"
+   }
+},
+{
+  "assetName":"Julella sublactea (Nyl.) R.C. Harris",
+  "reference":"10",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"0"
+   }
+},
+{
+  "assetName":"Cryptantha tenuis (Eastw.) Payson",
+  "reference":"11",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"1"
+   }
+},
+{
+  "assetName":"Phlox hoodii Richardson ssp. hoodii",
+  "reference":"12",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"0"
+   }
+},
+{
+  "assetName":"Salix wolfii Bebb",
+  "reference":"13",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"0"
+   }
+},
+{
+  "assetName":"Lycopus europaeus L.",
+  "reference":"14",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"0"
+   }
+},
+{
+  "assetName":"Artemisia packardiae J. Grimes & Ertter",
+  "reference":"15",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"1"
+   }
+},
+{
+  "assetName":"Artemisia furcata M. Bieb. var. furcata",
+  "reference":"16",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"2"
+   }
+},
+{
+  "assetName":"Rinodina luridata (KÃƒÂ¶rb.) H. Ma",
+  "reference":"18",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"0"
+   }
+},
+{
+  "assetName":"Aegilops L.",
+  "reference":"19",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"0"
+   }
+},
+{
+  "assetName":"Plagiomnium ellipticum (Brid.) T. Kop.",
+  "reference":"17",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"0"
+   }
+},
+{
+  "assetName":"Salvia dorrii (Kellogg) Abrams",
+  "reference":"20",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"0"
+   }
+},
+{
+  "assetName":"Diodia radula Cham. & Schltdl.",
+  "reference":"21",
+  "description":"Lorem i",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"0"
+   }
+},
+{
+  "assetName":"Myosotis laxa Lehm.",
+  "reference":"22",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+   "data": {
+      "createdAt":"1/2/17",
+      "belongsTo":"Conveyer 1",
+      "projects":"0",
+      "subAssets":"0"
+   }
+},
+];
+
+
+
 asset[0] =
   [
     {
@@ -61,9 +309,6 @@ asset[1] = [
        }
     }
 ];
-
-
-
 asset[5] = [
     {
       "assetName":"Nephroma helveticum Ach. ssp. ",
@@ -131,9 +376,9 @@ asset[5] = [
           "subAssets":"1"
        }
     },
-  ];
+];
 
-  asset[6] = [
+asset[6] = [
     {
       "assetName":"Phlox hoodii Richardson ssp. hoodii",
       "reference":"12",
@@ -145,7 +390,7 @@ asset[5] = [
           "subAssets":"0"
        }
     }
-  ]
+]
 
 asset[7] = [
     {
@@ -359,11 +604,31 @@ module.exports =
         method: "POST",
         path: "/asset",
         handler: (request, reply) => {   
-            console.log(request.payload);
-            res = Responses.recordSaved();
+          console.log(request.payload);
+          res = Responses.recordSaved();
+          console.log(res);
+          reply(res);           
+       }
+   },
+   {  
+        method: "GET",
+        path: "/asset",
+        handler: (request, reply) => {  
+
+          // setTimeout(function() {
+            var params = request.query
+            var asset = _.find(allOfAssets, {"reference": params['id']})
+            res = Responses.fetch(
+              { 
+                  data: asset,            
+              }
+            );
             console.log(res);
             reply(res);
-       }
+          // }, 3000);
+         
+         
+      }
    },
    {   
         method: "GET",
