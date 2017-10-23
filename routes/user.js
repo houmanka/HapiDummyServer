@@ -1,10 +1,13 @@
+const Responses = require("../helpers/responses");
+
 module.exports = 
 [   
      {  
-        method: 'GET',
-        path: '/',
+        method: 'POST',
+        path: '/user',
         handler: (request, reply) => {
-            reply('Hello, world!');
+            const headers = request.headers
+            reply(headers);
         } 
     }
 ];

@@ -11,7 +11,8 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"2"
+      "subAssets":"2",
+      "archived": false,
    }
 },
 {
@@ -22,7 +23,8 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"1"
+      "subAssets":"1",
+      "archived": false,
    }
 },
 {
@@ -33,7 +35,8 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"2"
+      "subAssets":"2",
+      "archived": false,
    }
 },
 {
@@ -44,7 +47,8 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"0"
+      "subAssets":"0",
+      "archived": false,
    }
 },
 {
@@ -55,7 +59,8 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"6"
+      "subAssets":"6",
+      "archived": false,
    }
 },
 {
@@ -66,7 +71,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"1"
+      "subAssets":"1",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -77,7 +84,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"1"
+      "subAssets":"1",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -88,7 +97,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"1"
+      "subAssets":"1",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -99,7 +110,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"1"
+      "subAssets":"1",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -110,7 +123,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"0"
+      "subAssets":"0",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -121,7 +136,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"1"
+      "subAssets":"1",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -132,7 +149,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"0"
+      "subAssets":"0",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -143,7 +162,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"0"
+      "subAssets":"0",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -154,7 +175,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"0"
+      "subAssets":"0",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -165,7 +188,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"1"
+      "subAssets":"1",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -176,7 +201,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"2"
+      "subAssets":"2",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -187,7 +214,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"0"
+      "subAssets":"0",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -198,7 +227,9 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"0"
+      "subAssets":"0",
+      "official": false,
+      "archived": false,
    }
 },
 {
@@ -209,7 +240,8 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"0"
+      "subAssets":"0",
+      "archived": false,
    }
 },
 {
@@ -220,7 +252,8 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"0"
+      "subAssets":"0",
+      "archived": false,
    }
 },
 {
@@ -231,7 +264,8 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"0"
+      "subAssets":"0",
+      "archived": false,
    }
 },
 {
@@ -242,7 +276,8 @@ allOfAssets = [{
       "createdAt":"1/2/17",
       "belongsTo":"Conveyer 1",
       "projects":"0",
-      "subAssets":"0"
+      "subAssets":"0",
+      "archived": false,
    }
 },
 ];

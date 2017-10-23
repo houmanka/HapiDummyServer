@@ -4,8 +4,6 @@ const Hapi = require('hapi');
 const Good = require('good');
 const AutoRoute = require('hapi-auto-route');
 var _ = require('underscore');
-
-
 const server = new Hapi.Server();
 
 server.connection(
